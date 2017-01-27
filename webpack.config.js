@@ -3,7 +3,9 @@ var path = require('path');
 module.exports = {
     context: __dirname,
     entry: {
-        adazzle: path.join(__dirname, 'adazzle')
+        adazzle: path.join(__dirname, 'adazzle'),
+        zippyui: path.join(__dirname, 'zippyui'),
+        'fixed-table': path.join(__dirname, 'fixed-table')
     },
     output: {
 		publicPath: '/',
